@@ -4,7 +4,7 @@ const { Server } = require("socket.io");
 const httpServer = createServer();
 const io = new Server(httpServer, {
   //client address
-  cors: "http://localhost:3000/"
+  cors: "https://multiplayertictactoe24.netlify.app/"
 });
 
 const allUsers = {};
